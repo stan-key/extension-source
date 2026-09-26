@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan — Steam fiyat karşılaştırma"
+  },
+  "extDescription": {
+    "message": "Uyumlu bir teklifi Steam'den ucuz veya aynı fiyatlı olduğunda gösterir."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

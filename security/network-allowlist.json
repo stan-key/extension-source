@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runtimeFetchOrigins": ["https://api.stan-key.com"],
+  "apiHostPermission": "https://api.stan-key.com/*",
+  "apiPaths": [
+    "POST /v2/extension/session",
+    "GET /v2/extension/markets",
+    "GET /v2/extension/apps/{appId}/packages/{packageId}/offers",
+    "POST /v2/extension/analytics/install"
+  ],
+  "userNavigationOrigins": [
+    "https://api.stan-key.com",
+    "https://stan-key.com",
+    "https://chromewebstore.google.com",
+    "https://addons.mozilla.org"
+  ],
+  "requestPolicy": {
+    "credentials": "omit",
+    "redirect": "error",
+    "referrerPolicy": "no-referrer",
+    "timeoutMs": 5000,
+    "maxResponseBytes": 131072
+  },
+  "executableCode": {
+    "remoteScriptsAllowed": false,
+    "dynamicEvaluationAllowed": false,
+    "remoteModuleImportsAllowed": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan — so sánh giá Steam"
+  },
+  "extDescription": {
+    "message": "Hiển thị ưu đãi tương thích khi giá thấp hơn hoặc bằng Steam."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

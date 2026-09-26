@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/stan-key/extension-source/blob/latest/security/snapshot.schema.json",
+  "title": "Stan public browser snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "snapshotId", "generatedAt", "releaseTag", "auditToolVersion", "publisherVersion", "browsers", "releaseUrl"],
+  "properties": {
+    "schemaVersion": { "const": 3 },
+    "snapshotId": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "releaseTag": { "const": "latest" },
+    "auditToolVersion": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "publisherVersion": { "type": "string", "minLength": 1 },
+    "browsers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chrome", "firefox", "safari"],
+      "properties": {
+        "chrome": { "$ref": "#/$defs/browserSlot" },
+        "firefox": { "$ref": "#/$defs/browserSlot" },
+        "safari": { "$ref": "#/$defs/browserSlot" }
+      }
+    },
+    "releaseUrl": { "type": "string", "format": "uri" }
+  },
+  "$defs": {
+    "browserSlot": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["version", "providerStatus", "sourceDirectory", "manifest", "manifestSha256", "artifactName", "sha256", "sourceSha256", "sourceSnapshotId", "submittedAt", "provenance"],
+          "properties": {
+            "version": { "type": "string", "pattern": "^\\d+(?:\\.\\d+){0,3}$" },
+            "providerStatus": { "type": "string", "minLength": 1 },
+            "sourceDirectory": { "type": "string" },
+            "manifest": { "type": "string" },
+            "manifestSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "artifactName": { "type": "string", "minLength": 1 },
+            "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "sourceSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "sourceSnapshotId": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "submittedAt": { "type": ["string", "null"], "format": "date-time" },
+            "provenance": { "type": "object" }
+          }
+        }
+      ]
+    }
+  }
+}

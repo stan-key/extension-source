@@ -1,0 +1,72 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "Stan",
+  "description": "__MSG_extDescription__",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.stan-key.com/*",
+    "https://store.steampowered.com/*"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://store.steampowered.com/app/*"
+      ],
+      "js": [
+        "src/content-loader.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://store.steampowered.com/wishlist/*"
+      ],
+      "js": [
+        "src/wishlist-loader.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/logo/derived/stan-mark-framed.svg",
+        "assets/logo/derived/stan-lockup-ink.svg",
+        "assets/logo/derived/stan-lockup-white.svg",
+        "src/wishlist-bridge.js"
+      ],
+      "matches": [
+        "https://store.steampowered.com/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_title": "__MSG_actionTitle__",
+    "default_popup": "src/safari-popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "default_locale": "fr",
+  "version": "1.9.0",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "browser_specific_settings": {
+    "safari": {
+      "strict_min_version": "16.4"
+    }
+  }
+}

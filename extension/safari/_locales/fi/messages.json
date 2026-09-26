@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan — Steam-hintavertailu"
+  },
+  "extDescription": {
+    "message": "Näyttää yhteensopivan tarjouksen, kun se on Steamia halvempi tai samanhintainen."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

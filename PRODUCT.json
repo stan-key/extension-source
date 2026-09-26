@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 2,
+  "name": "Stan",
+  "alternateNames": [
+    "Stan Steam Price Checker",
+    "Stan Steam Price Comparison",
+    "Stan Browser Extension"
+  ],
+  "productType": "browser-extension",
+  "description": "Stan compares the Steam price a user is viewing with verified, compatible Steam key offers directly on supported Steam pages and wishlists. This repository is the public browser transparency surface for Chrome, Firefox and Safari.",
+  "keywords": [
+    "Steam price comparison",
+    "Steam price checker",
+    "Steam keys",
+    "Steam wishlist",
+    "Chrome extension",
+    "Firefox extension",
+    "Safari extension",
+    "browser transparency",
+    "Manifest V3"
+  ],
+  "homepage": "https://stan-key.com/",
+  "download": {
+    "chromeWebStore": "https://chromewebstore.google.com/detail/ehhomikpbeokopccgmienllpnambnkif",
+    "firefoxAddons": "https://addons.mozilla.org/firefox/addon/stan-steam-price-comparison/",
+    "githubRelease": "https://github.com/stan-key/extension-source/releases/latest",
+    "manualDownload": {
+      "provider": "github-release",
+      "url": "https://github.com/stan-key/extension-source/releases/latest",
+      "asset": "stan-chrome-1.9.6.zip",
+      "checksum": "stan-chrome-1.9.6.zip.sha256",
+      "automaticUpdates": false
+    },
+    "releaseAssets": {
+      "chrome": "stan-chrome-1.9.6.zip",
+      "firefox": "stan-firefox-1.9.6.xpi",
+      "safari": "stan-safari-webextension-1.9.0.zip"
+    }
+  },
+  "browsers": {
+    "chrome": {
+      "provider": "Chrome Web Store",
+      "manifestVersion": 3,
+      "version": "1.9.6",
+      "artifact": "stan-chrome-1.9.6.zip",
+      "sha256": "cf206d0a85255b7a2f1c86f4be09d07aac894f5f75b72e0536a2cf2ac3bab9a7",
+      "sourceDirectory": "extension/chrome"
+    },
+    "firefox": {
+      "provider": "Mozilla Add-ons (AMO)",
+      "version": "1.9.6",
+      "artifact": "stan-firefox-1.9.6.xpi",
+      "sha256": "5c2f9855b701953615ba14b2a8ed92a50b989f4d72e412e374a739c797ba0e7c",
+      "sourceDirectory": "extension/firefox",
+      "signedArtifactOnly": true
+    },
+    "safari": {
+      "provider": "Apple App Store",
+      "version": "1.9.0",
+      "artifact": "stan-safari-webextension-1.9.0.zip",
+      "sha256": "1ae51b1e7b7072cb3c7ee7c5b7f6b3e5b36435cad2f2b63220b9cb1112cec9d0",
+      "sourceDirectory": "extension/safari",
+      "payloadType": "browser-webextension"
+    }
+  },
+  "source": {
+    "directories": {
+      "chrome": "extension/chrome",
+      "firefox": "extension/firefox",
+      "safari": "extension/safari"
+    },
+    "snapshot": "snapshot.json",
+    "release": "https://github.com/stan-key/extension-source/releases/latest"
+  },
+  "localizedDiscovery": {
+    "zh-CN": {
+      "alternateNames": [
+        "Steam 比价",
+        "Steam 价格比较",
+        "Steam Key 比价",
+        "Steam 愿望单 比价"
+      ],
+      "keywords": [
+        "Steam 浏览器扩展",
+        "Chrome 扩展",
+        "Chrome 插件 手动安装",
+        "无法访问 Chrome 网上应用店"
+      ],
+      "manualInstallGuide": "INSTALL.zh-CN.md",
+      "manualDownload": "https://github.com/stan-key/extension-source/releases/latest",
+      "auditabilityGuide": "AUDITABLE_STACK.md",
+      "officialStores": {
+        "chrome": "https://chromewebstore.google.com/detail/ehhomikpbeokopccgmienllpnambnkif",
+        "firefox": "https://addons.mozilla.org/firefox/addon/stan-steam-price-comparison/"
+      }
+    }
+  },
+  "licensing": {
+    "model": "source-available-transparency",
+    "name": "Stan Source Transparency License 1.0",
+    "file": "LICENSE",
+    "thirdPartyNotices": "THIRD_PARTY_NOTICES.txt",
+    "inspectionAllowed": true,
+    "auditAllowed": true,
+    "localGoodFaithSecurityResearchAllowed": true,
+    "officialUnmodifiedPackageUseAllowed": true,
+    "generalRedistributionGranted": false,
+    "derivativeDistributionGranted": false
+  },
+  "links": {
+    "privacy": "https://stan-key.com/privacy",
+    "legal": "https://stan-key.com/legal",
+    "license": "LICENSE",
+    "thirdPartyNotices": "THIRD_PARTY_NOTICES.txt",
+    "transparency": "TRANSPARENCY.md",
+    "safariBoundary": "SAFARI.md",
+    "security": "SECURITY.md",
+    "support": "SUPPORT.md",
+    "auditGuide": "AUDIT_GUIDE.md",
+    "auditabilityGuide": "AUDITABLE_STACK.md",
+    "dataFlow": "DATA_FLOW.md",
+    "threatModel": "THREAT_MODEL.md"
+  },
+  "locales": [
+    "en",
+    "ar",
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "es",
+    "es-419",
+    "fi",
+    "fr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "ms",
+    "nl",
+    "no",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "ro",
+    "ru",
+    "sv",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "commercialDisclosure": "Some merchant links are affiliate links. Affiliate commissions do not change the ordering of eligible offers.",
+  "trademarkNotice": "Stan is an independent product. Valve and Steam are trademarks of Valve Corporation. Stan is not provided, endorsed or supported by Valve."
+}

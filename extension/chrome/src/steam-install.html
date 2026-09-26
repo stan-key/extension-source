@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stan</title>
+    <link rel="stylesheet" href="steam-install.css">
+  </head>
+  <body>
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div><h1 id="page-title" data-compliance-i18n="pageTitle"></h1><p data-compliance-i18n="pageIntro"></p></div>
+      </section>
+
+      <aside class="disclosure" aria-labelledby="disclosure-title">
+        <h2 id="disclosure-title" data-compliance-i18n="disclosureHeading"></h2>
+        <p data-compliance-i18n="platformDisclosure"></p>
+        <p data-compliance-i18n="comparisonDisclosure"></p>
+      </aside>
+
+      <ol class="steps" aria-label="Steam">
+        <li class="step"><span class="step-number" aria-hidden="true">01</span><p data-i18n="step1"></p></li>
+        <li class="step copy-step">
+          <span class="step-number" aria-hidden="true">02</span>
+          <div><p data-i18n="step2"></p><code data-store-url></code><button type="button" class="copy-button" data-copy="store"><svg class="copy-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"></path></svg><span data-copy-label data-i18n="copyLink" aria-live="polite"></span></button></div>
+        </li>
+        <li class="step"><span class="step-number" aria-hidden="true">03</span><p data-i18n="step3"></p></li>
+        <li class="step"><span class="step-number" aria-hidden="true">04</span><p data-i18n="step4"></p></li>
+      </ol>
+
+      <section class="uninstall" aria-labelledby="uninstall-title">
+        <h2 id="uninstall-title" data-i18n="uninstallTitle"></h2>
+        <p class="uninstall-intro" data-i18n="uninstallIntro"></p>
+        <ol class="steps">
+          <li class="step"><span class="step-number" aria-hidden="true">01</span><p data-i18n="uninstallStep1"></p></li>
+          <li class="step copy-step">
+            <span class="step-number" aria-hidden="true">02</span>
+            <div><p data-i18n="uninstallStep2"></p><code data-extensions-url></code><button type="button" class="copy-button copy-button-secondary" data-copy="extensions"><svg class="copy-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"></path></svg><span data-copy-label data-i18n="copyAddress" aria-live="polite"></span></button></div>
+          </li>
+          <li class="step"><span class="step-number" aria-hidden="true">03</span><p data-i18n="uninstallStep3"></p></li>
+        </ol>
+      </section>
+      <footer class="legal-notice"><p id="legal-notice"></p><a id="legal-link" target="_blank" rel="noopener noreferrer"></a></footer>
+    </main>
+    <script type="module" src="steam-install.js"></script>
+  </body>
+</html>

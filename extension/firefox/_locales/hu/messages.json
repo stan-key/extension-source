@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan — Steam ár-összehasonlítás"
+  },
+  "extDescription": {
+    "message": "Kompatibilis ajánlatot jelenít meg, ha az olcsóbb vagy ugyanannyiba kerül, mint a Steam."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

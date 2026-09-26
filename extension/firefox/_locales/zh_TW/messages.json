@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan — Steam 價格比較"
+  },
+  "extDescription": {
+    "message": "相容優惠低於或等於 Steam 價格時才會顯示。"
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

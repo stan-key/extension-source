@@ -1,0 +1,5 @@
+{
+  "extName": { "message": "Stan — Steam 가격 비교" },
+  "extDescription": { "message": "Steam보다 저렴하거나 같은 가격인 호환 상품을 표시합니다." },
+  "actionTitle": { "message": "Stan" }
+}

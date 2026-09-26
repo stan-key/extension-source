@@ -1,0 +1,60 @@
+# Stan
+
+> Stan is a browser extension for Chrome, Firefox and Safari. It compares the Steam price a user is viewing with verified, compatible Steam key offers directly on supported Steam game pages and wishlists.
+
+Common discovery terms: Steam price comparison, Steam price checker, Steam prices, Steam deals, Steam keys, Steam wishlist, game deals, Chrome extension, Firefox extension, Safari extension, browser transparency, Manifest V3.
+
+## 简体中文安装
+
+- Stan 在 Steam 页面和愿望单中提供 Steam 比价与经过验证的 Steam Key 比价。
+- 官方安装入口：[Chrome 网上应用店](https://chromewebstore.google.com/detail/ehhomikpbeokopccgmienllpnambnkif) · [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/stan-steam-price-comparison/)。
+- 搜索意图：Steam 比价、Steam 价格比较、Steam Key 比价、Steam 愿望单 比价、Chrome 扩展、Firefox 扩展。
+- [简体中文入口](https://github.com/stan-key/extension-source/blob/main/README.zh-CN.md)
+- [简体中文安装指南（含 Chrome 手动安装备用步骤）](https://github.com/stan-key/extension-source/blob/main/INSTALL.zh-CN.md)
+- [可审计的工程栈、权限和发布证据](https://github.com/stan-key/extension-source/blob/main/AUDITABLE_STACK.md)
+- [审计步骤与检查范围](https://github.com/stan-key/extension-source/blob/main/AUDIT_GUIDE.md)
+- [GitHub Release 下载官方验证 ZIP](https://github.com/stan-key/extension-source/releases/latest)
+- 当 Chrome 网上应用店不可访问时，GitHub Release 是 Chrome 手动安装备用下载路径；手动加载不会自动更新。
+
+## Official links
+
+- Website: https://stan-key.com/
+- Chrome Web Store: https://chromewebstore.google.com/detail/ehhomikpbeokopccgmienllpnambnkif
+- Firefox Add-ons: https://addons.mozilla.org/firefox/addon/stan-steam-price-comparison/
+- Latest provider Release: https://github.com/stan-key/extension-source/releases/latest
+- Snapshot metadata: https://github.com/stan-key/extension-source/blob/main/snapshot.json
+- Audit guide: https://github.com/stan-key/extension-source/blob/main/AUDIT_GUIDE.md
+- Data flow: https://github.com/stan-key/extension-source/blob/main/DATA_FLOW.md
+- Threat model: https://github.com/stan-key/extension-source/blob/main/THREAT_MODEL.md
+- Product metadata: https://github.com/stan-key/extension-source/blob/main/PRODUCT.json
+- Transparency notes: https://github.com/stan-key/extension-source/blob/main/TRANSPARENCY.md
+- Safari package notes: https://github.com/stan-key/extension-source/blob/main/SAFARI.md
+- Security reporting: https://github.com/stan-key/extension-source/blob/main/SECURITY.md
+
+## Browser slots
+
+- Chrome source: https://github.com/stan-key/extension-source/tree/main/extension/chrome
+- Firefox source: https://github.com/stan-key/extension-source/tree/main/extension/firefox
+- Safari source: https://github.com/stan-key/extension-source/tree/main/extension/safari
+- Chrome asset: https://github.com/stan-key/extension-source/releases/download/latest/stan-chrome-1.9.6.zip
+- Firefox asset: https://github.com/stan-key/extension-source/releases/download/latest/stan-firefox-1.9.6.xpi
+- Safari audit payload: https://github.com/stan-key/extension-source/releases/download/latest/stan-safari-webextension-1.9.0.zip
+
+The Chrome asset is the exact ZIP submitted to the Chrome Web Store. The Firefox asset is the XPI signed by AMO. The Safari asset is the browser WebExtension payload extracted from the signed Apple build for inspection.
+
+## Publication model
+
+Each provider submission replaces only its browser slot. `snapshot.json` records versions, hashes and non-sensitive provenance. The public repository contains one root commit: `main` and `latest` are aligned to that commit. The public Release retains the three browser slots and their matching assets.
+
+## Product and privacy
+
+- Supported Steam surfaces: game pages and wishlists.
+- Chrome/Firefox host access: https://api.stan-key.com/*; Safari also declares Steam host access for its content scripts.
+- The extension does not request tabs, browser-history, cookie or `webRequest` access, and does not execute remote code.
+- Eligible offers are ordered by comparable final price; affiliate commissions do not change that order.
+- Coverage is partial and non-exhaustive.
+- Stan is independent from Valve. Steam and Valve are trademarks of Valve Corporation.
+
+## Licensing
+
+Stan-authored browser-extension material is available for inspection under the Stan Source Transparency License 1.0. The license permits inspection, auditing, local good-faith security research and use of unmodified official Stan packages. Third-party components remain governed by their own licenses and are identified in `THIRD_PARTY_NOTICES.txt`.

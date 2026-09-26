@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan — σύγκριση τιμών Steam"
+  },
+  "extDescription": {
+    "message": "Εμφανίζει συμβατή προσφορά όταν είναι φθηνότερη ή έχει την ίδια τιμή με το Steam."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}
