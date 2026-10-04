@@ -1,0 +1,5 @@
+{
+  "extName": { "message": "Stan — jämför Steam-priser" },
+  "extDescription": { "message": "Visar ett kompatibelt erbjudande när det är billigare än eller lika dyrt som Steam." },
+  "actionTitle": { "message": "Stan" }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 3,
+  "snapshotId": "80a4b6d4e2c67428226ac96feacab1b7039d6c3fb29d16bb554d4e962f9312a9",
+  "generatedAt": "2026-10-04T13:26:50.557Z",
+  "releaseTag": "latest",
+  "auditToolVersion": "1.0.0",
+  "publisherVersion": "2.0.2",
+  "browsers": {
+    "chrome": {
+      "version": "2.0.1",
+      "providerStatus": "submission-succeeded",
+      "sourceDirectory": "extension/chrome",
+      "manifest": "extension/chrome/manifest.json",
+      "manifestSha256": "65c5374debd80098b741a4c165555d9f49ab2a4af677cf8e5ac22ddd239fbfe1",
+      "artifactName": "stan-chrome-2.0.1.zip",
+      "sha256": "ead9eaa04d1fd5f87f54e3ddacf228cc50f12e8af8a152ec9d1e74d117fae594",
+      "sourceSha256": "89557358f08feab7881d47e6f8b1951f21a0c2f80e8d0173c85e48a951cd6067",
+      "sourceSnapshotId": "313a81749fb937cceb92f23c428e8fece7701a216e2d82fb0036879286b515ca",
+      "submittedAt": null,
+      "provenance": {
+        "schemaVersion": 1,
+        "provider": "chrome-web-store",
+        "event": "submission-succeeded",
+        "sourceSha": "a6ed689e0893d72e86075e326bbd2e222b7335b5",
+        "version": "2.0.1",
+        "submissionState": "PENDING_REVIEW",
+        "publishType": "STAGED_PUBLISH",
+        "artifactName": "stan-chrome-2.0.1.zip",
+        "artifactSha256": "ead9eaa04d1fd5f87f54e3ddacf228cc50f12e8af8a152ec9d1e74d117fae594"
+      }
+    },
+    "firefox": {
+      "version": "2.0.1",
+      "providerStatus": "listed-signature-succeeded",
+      "sourceDirectory": "extension/firefox",
+      "manifest": "extension/firefox/manifest.json",
+      "manifestSha256": "becf84274a4becb8927fb8173ae2d2417a91d10d73c515cedf44aa8b07d741dc",
+      "artifactName": "stan-firefox-2.0.1.xpi",
+      "sha256": "e0db8023f235bbd78e9251f25705aa8df69bb853be80873d232a2ea98e60115a",
+      "sourceSha256": "fe7b22e99af239eefbbc723843c6d9afdf1636e64ffe258a3f3e1197e2ecb8ee",
+      "sourceSnapshotId": "dbca7ce47b87d53ed24f30800e12a6b9144b2bba730d53e3c2b217c158d56337",
+      "submittedAt": null,
+      "provenance": {
+        "schemaVersion": 1,
+        "provider": "amo",
+        "event": "listed-signature-succeeded",
+        "sourceSha": "a6ed689e0893d72e86075e326bbd2e222b7335b5",
+        "version": "2.0.1",
+        "channel": "listed",
+        "candidateSha256": "95080c82bb4181a23e1e3d073d36d2287efa5db7a4b591f3815675ebd77ed592",
+        "signedArtifactName": "stan-firefox-2.0.1.xpi",
+        "signedSha256": "e0db8023f235bbd78e9251f25705aa8df69bb853be80873d232a2ea98e60115a",
+        "sourceArchivePublished": false
+      }
+    },
+    "safari": {
+      "version": "1.9.0",
+      "providerStatus": "submit-for-review-succeeded",
+      "sourceDirectory": "extension/safari",
+      "manifest": "extension/safari/manifest.json",
+      "manifestSha256": "231bdff0654af01160f1cbc16769a05f21b7a740b9b1bbf0002b66d23f8760df",
+      "artifactName": "stan-safari-webextension-1.9.0.zip",
+      "sha256": "1ae51b1e7b7072cb3c7ee7c5b7f6b3e5b36435cad2f2b63220b9cb1112cec9d0",
+      "sourceSha256": "703c9f0f09b3786caa9a7aaaabcf894959b626d54f2f877831a03f5028c3c34f",
+      "sourceSnapshotId": "ee505d2625e82684af9c6fe3f46afdeb323b1af59470dab7dcf850e268da51e2",
+      "submittedAt": null,
+      "provenance": {
+        "schemaVersion": 1,
+        "provider": "app-store-connect",
+        "event": "submit-for-review-succeeded",
+        "sourceSha": "a6098d907a258a67d29983f41a40ee03fbffb31a",
+        "marketingVersion": "1.9.0",
+        "buildNumber": "906",
+        "platforms": [
+          {
+            "platform": "IOS",
+            "state": "WAITING_FOR_REVIEW",
+            "buildNumber": "906"
+          },
+          {
+            "platform": "MAC_OS",
+            "state": "WAITING_FOR_REVIEW",
+            "buildNumber": "906"
+          }
+        ],
+        "safariArtifact": {
+          "artifactName": "stan-safari-webextension-1.9.0.zip",
+          "artifactSha256": "1ae51b1e7b7072cb3c7ee7c5b7f6b3e5b36435cad2f2b63220b9cb1112cec9d0"
+        },
+        "submitted": true
+      }
+    }
+  },
+  "releaseUrl": "https://github.com/stan-key/extension-source/releases/latest"
+}

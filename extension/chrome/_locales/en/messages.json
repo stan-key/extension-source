@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Stan — Steam price comparison",
+    "description": "Name shown on the Chrome Web Store listing and in the extension manager."
+  },
+  "extDescription": {
+    "message": "Compares Steam with verified, compatible Steam key offers directly on game pages.",
+    "description": "Short description for the Chrome Web Store listing."
+  },
+  "actionTitle": {
+    "message": "Stan",
+    "description": "Toolbar button tooltip."
+  }
+}

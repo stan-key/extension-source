@@ -1,0 +1,5 @@
+{
+  "extName": { "message": "Stan — perbandingan harga Steam" },
+  "extDescription": { "message": "Memaparkan tawaran yang serasi apabila harganya lebih murah atau sama seperti Steam." },
+  "actionTitle": { "message": "Stan" }
+}

@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Stan — comparateur de prix Steam",
+    "description": "Nom affiché sur la fiche Chrome Web Store et dans le gestionnaire d'extensions."
+  },
+  "extDescription": {
+    "message": "Compare Steam aux offres vérifiées de clés compatibles, directement sur les pages de jeux.",
+    "description": "Description courte de la fiche Chrome Web Store."
+  },
+  "actionTitle": {
+    "message": "Stan",
+    "description": "Infobulle du bouton de la barre d'outils."
+  }
+}

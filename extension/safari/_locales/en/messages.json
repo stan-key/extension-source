@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan — Steam price comparison"
+  },
+  "extDescription": {
+    "message": "Compares Steam with verified, compatible Steam key offers directly on game pages."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

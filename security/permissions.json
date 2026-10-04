@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": 3,
+  "requiredPermissions": ["storage"],
+  "forbiddenPermissions": ["cookies", "history", "tabs", "webRequest"],
+  "forbiddenHostPatterns": ["<all_urls>"],
+  "apiHostPermissions": ["https://api.stan-key.com/*"],
+  "browsers": {
+    "chrome": {
+      "hostPermissions": ["https://api.stan-key.com/*"],
+      "contentScriptMatches": [
+        "https://store.steampowered.com/app/*",
+        "https://store.steampowered.com/wishlist/*"
+      ],
+      "mainWorldScripts": ["src/wishlist-bridge.js"]
+    },
+    "firefox": {
+      "hostPermissions": ["https://api.stan-key.com/*"],
+      "contentScriptMatches": [
+        "https://store.steampowered.com/app/*",
+        "https://store.steampowered.com/wishlist/*"
+      ],
+      "mainWorldScripts": ["src/wishlist-bridge.js"]
+    },
+    "safari": {
+      "hostPermissions": [
+        "https://api.stan-key.com/*",
+        "https://store.steampowered.com/*"
+      ],
+      "contentScriptMatches": [
+        "https://store.steampowered.com/app/*",
+        "https://store.steampowered.com/wishlist/*"
+      ],
+      "mainWorldScripts": []
+    }
+  }
+}

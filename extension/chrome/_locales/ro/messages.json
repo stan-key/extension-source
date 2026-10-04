@@ -1,0 +1,5 @@
+{
+  "extName": { "message": "Stan — comparare prețuri Steam" },
+  "extDescription": { "message": "Afișează o ofertă compatibilă când este mai ieftină sau are același preț ca Steam." },
+  "actionTitle": { "message": "Stan" }
+}

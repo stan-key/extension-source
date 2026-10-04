@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan — porovnání cen na Steamu"
+  },
+  "extDescription": {
+    "message": "Zobrazí kompatibilní nabídku, když je levnější než Steam nebo za stejnou cenu."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

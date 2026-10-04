@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 2,
+  "name": "Stan",
+  "alternateNames": [
+    "Stan Steam Price Checker",
+    "Stan Steam Price Comparison",
+    "Stan Browser Extension"
+  ],
+  "productType": "browser-extension",
+  "description": "Stan compares the Steam price a user is viewing with verified, compatible Steam key offers directly on supported Steam pages and wishlists. It is available for Chrome, Microsoft Edge, Firefox and Safari on iPhone, iPad and Mac. This repository is the public browser transparency surface for every store package.",
+  "keywords": [
+    "Steam price comparison",
+    "Steam price checker",
+    "Steam keys",
+    "Steam wishlist",
+    "Chrome extension",
+    "Edge extension",
+    "Firefox extension",
+    "Safari extension",
+    "Safari iPhone iPad Mac",
+    "browser transparency",
+    "Manifest V3"
+  ],
+  "homepage": "https://stan-key.com/",
+  "download": {
+    "chromeWebStore": "https://chromewebstore.google.com/detail/ehhomikpbeokopccgmienllpnambnkif",
+    "microsoftEdgeAddons": "https://microsoftedge.microsoft.com/addons/detail/mifpmbmnhmjgdmagibinlgmigbabmaml",
+    "firefoxAddons": "https://addons.mozilla.org/firefox/addon/stan-steam-price-comparison/",
+    "appStore": "https://apps.apple.com/app/stan-steam-price-checker/id6803592430",
+    "githubRelease": "https://github.com/stan-key/extension-source/releases/latest",
+    "manualDownload": {
+      "provider": "github-release",
+      "url": "https://github.com/stan-key/extension-source/releases/latest",
+      "asset": "stan-chrome-2.0.1.zip",
+      "checksum": "stan-chrome-2.0.1.zip.sha256",
+      "automaticUpdates": false
+    },
+    "releaseAssets": {
+      "chrome": "stan-chrome-2.0.1.zip",
+      "firefox": "stan-firefox-2.0.1.xpi",
+      "safari": "stan-safari-webextension-1.9.0.zip"
+    }
+  },
+  "browsers": {
+    "chrome": {
+      "provider": "Chrome Web Store",
+      "manifestVersion": 3,
+      "version": "2.0.1",
+      "artifact": "stan-chrome-2.0.1.zip",
+      "sha256": "ead9eaa04d1fd5f87f54e3ddacf228cc50f12e8af8a152ec9d1e74d117fae594",
+      "sourceDirectory": "extension/chrome",
+      "alsoDistributedBy": {
+        "provider": "Microsoft Edge Add-ons",
+        "url": "https://microsoftedge.microsoft.com/addons/detail/mifpmbmnhmjgdmagibinlgmigbabmaml",
+        "package": "same Chromium build from the same source"
+      },
+      "storeUrl": "https://chromewebstore.google.com/detail/ehhomikpbeokopccgmienllpnambnkif"
+    },
+    "firefox": {
+      "provider": "Mozilla Add-ons (AMO)",
+      "version": "2.0.1",
+      "artifact": "stan-firefox-2.0.1.xpi",
+      "sha256": "e0db8023f235bbd78e9251f25705aa8df69bb853be80873d232a2ea98e60115a",
+      "sourceDirectory": "extension/firefox",
+      "signedArtifactOnly": true,
+      "storeUrl": "https://addons.mozilla.org/firefox/addon/stan-steam-price-comparison/"
+    },
+    "safari": {
+      "provider": "Apple App Store",
+      "version": "1.9.0",
+      "artifact": "stan-safari-webextension-1.9.0.zip",
+      "sha256": "1ae51b1e7b7072cb3c7ee7c5b7f6b3e5b36435cad2f2b63220b9cb1112cec9d0",
+      "sourceDirectory": "extension/safari",
+      "payloadType": "browser-webextension",
+      "storeUrl": "https://apps.apple.com/app/stan-steam-price-checker/id6803592430",
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "macOS"
+      ]
+    }
+  },
+  "source": {
+    "directories": {
+      "chrome": "extension/chrome",
+      "firefox": "extension/firefox",
+      "safari": "extension/safari"
+    },
+    "snapshot": "snapshot.json",
+    "release": "https://github.com/stan-key/extension-source/releases/latest"
+  },
+  "localizedDiscovery": {
+    "zh-CN": {
+      "alternateNames": [
+        "Steam 比价",
+        "Steam 价格比较",
+        "Steam Key 比价",
+        "Steam 愿望单 比价"
+      ],
+      "keywords": [
+        "Steam 浏览器扩展",
+        "Chrome 扩展",
+        "Chrome 插件 手动安装",
+        "无法访问 Chrome 网上应用店",
+        "Edge 扩展"
+      ],
+      "manualInstallGuide": "INSTALL.zh-CN.md",
+      "manualDownload": "https://github.com/stan-key/extension-source/releases/latest",
+      "auditabilityGuide": "AUDITABLE_STACK.md",
+      "officialStores": {
+        "chrome": "https://chromewebstore.google.com/detail/ehhomikpbeokopccgmienllpnambnkif",
+        "edge": "https://microsoftedge.microsoft.com/addons/detail/mifpmbmnhmjgdmagibinlgmigbabmaml",
+        "firefox": "https://addons.mozilla.org/firefox/addon/stan-steam-price-comparison/",
+        "safari": "https://apps.apple.com/app/stan-steam-price-checker/id6803592430"
+      }
+    }
+  },
+  "licensing": {
+    "model": "source-available-transparency",
+    "name": "Stan Source Transparency License 1.0",
+    "file": "LICENSE",
+    "thirdPartyNotices": "THIRD_PARTY_NOTICES.txt",
+    "inspectionAllowed": true,
+    "auditAllowed": true,
+    "localGoodFaithSecurityResearchAllowed": true,
+    "officialUnmodifiedPackageUseAllowed": true,
+    "generalRedistributionGranted": false,
+    "derivativeDistributionGranted": false
+  },
+  "links": {
+    "privacy": "https://stan-key.com/privacy",
+    "legal": "https://stan-key.com/legal",
+    "license": "LICENSE",
+    "thirdPartyNotices": "THIRD_PARTY_NOTICES.txt",
+    "transparency": "TRANSPARENCY.md",
+    "safariBoundary": "SAFARI.md",
+    "security": "SECURITY.md",
+    "support": "SUPPORT.md",
+    "auditGuide": "AUDIT_GUIDE.md",
+    "auditabilityGuide": "AUDITABLE_STACK.md",
+    "dataFlow": "DATA_FLOW.md",
+    "threatModel": "THREAT_MODEL.md"
+  },
+  "locales": [
+    "en",
+    "ar",
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "es",
+    "es-419",
+    "fi",
+    "fr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "ms",
+    "nl",
+    "no",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "ro",
+    "ru",
+    "sv",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "commercialDisclosure": "Some merchant links are affiliate links. Affiliate commissions do not change which offers are eligible or the ordering of eligible offers.",
+  "trademarkNotice": "Stan is an independent product. Valve and Steam are trademarks of Valve Corporation. Stan is not provided, endorsed or supported by Valve.",
+  "availabilityNote": "Store availability can vary by country or region."
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/stan-key/extension-source/blob/latest/security/main-world-schema.json",
+  "schemaVersion": 1,
+  "scope": ["chrome", "firefox"],
+  "bridge": "src/wishlist-bridge.js",
+  "transport": {
+    "api": "window.postMessage",
+    "targetOrigin": "window.location.origin",
+    "networkAccess": false,
+    "cookieAccess": false,
+    "storageAccess": false,
+    "extensionApiAccess": false
+  },
+  "messages": {
+    "wishlistItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "item"],
+      "properties": {
+        "type": { "const": "STAN_WISHLIST_ITEM" },
+        "item": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "appId",
+            "packageId",
+            "finalPriceMinor",
+            "formattedFinalPrice",
+            "includedGameCount",
+            "mustPurchaseAsSet"
+          ],
+          "properties": {
+            "appId": { "type": "integer", "minimum": 1 },
+            "packageId": { "type": "integer", "minimum": 1 },
+            "finalPriceMinor": { "type": "integer", "minimum": 1, "maximum": 100000000 },
+            "formattedFinalPrice": { "type": "string", "minLength": 1, "maxLength": 64 },
+            "includedGameCount": { "type": "integer", "minimum": 1 },
+            "mustPurchaseAsSet": { "type": "boolean" }
+          }
+        }
+      }
+    },
+    "ready": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": { "type": { "const": "STAN_WISHLIST_BRIDGE_READY" } }
+    },
+    "replayRequest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": { "type": { "const": "STAN_WISHLIST_REPLAY_REQUEST" } }
+    }
+  }
+}

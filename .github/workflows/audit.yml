@@ -1,0 +1,49 @@
+name: Public extension audit
+
+on:
+  push:
+    branches: [main]
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-extension-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  snapshot:
+    if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+      - name: Require a single-root public snapshot
+        run: test "$(git rev-list --parents -n 1 HEAD | wc -w | tr -d ' ')" = 1
+      - name: Audit checked-in source and contracts
+        run: node tools/audit-release.mjs all --snapshot-only --json
+
+  release:
+    if: ${{ github.event_name == 'release' && github.event.action != 'deleted' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+      - name: Audit GitHub refs, provider assets, checksums and source correspondence
+        run: node tools/audit-release.mjs all --json
