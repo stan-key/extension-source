@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: Steam価格比較 & 検証済みキー"
+  },
+  "extDescription": {
+    "message": "Steamで買う前に、検証済みキーの方が安いか確認。無料・アカウント不要で、ゲームページとウィッシュリストに表示されます。"
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

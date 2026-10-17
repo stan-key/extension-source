@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr" data-browser-target="chromium">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stan</title>
+    <link rel="stylesheet" href="popup-menu.css">
+  </head>
+  <body>
+    <div class="popup-viewport">
+      <main class="popup-shell" id="popup-shell" data-share-expanded="false" aria-labelledby="settings-title">
+        <button class="popup-close" type="button" data-popup-close aria-label="Close menu">
+          <img src="../assets/comparator/close.svg" alt="" width="14" height="14">
+        </button>
+
+        <header class="brand-header">
+          <img class="brand-lockup" src="../assets/logo/derived/stan-lockup-white.svg" alt="Stan" width="620" height="200">
+        </header>
+
+        <section class="settings" id="view-settings">
+          <section class="steam-bridge">
+            <a id="steam-bridge-action" class="steam-bridge-action" target="_blank" rel="noopener noreferrer">
+              <span data-share-brand="integrationCta">Intégrer stan à Steam</span>
+            </a>
+          </section>
+
+          <section class="share-block" aria-labelledby="share-title">
+            <h2 id="share-title">
+              <button class="share-link" type="button" data-share-action>
+                <span data-share-brand="shareAction">Partagez stan</span>
+              </button>
+              <img class="share-lightning" src="../assets/comparator/small-eclairs.svg" alt="" width="15" height="13">
+            </h2>
+            <button class="share-qr-toggle" type="button" data-share-toggle aria-expanded="false" aria-controls="share-qr-expanded" data-share-aria="expandQr" aria-label="Enlarge the Stan QR code">
+              <canvas id="share-qr-small" width="128" height="128" aria-hidden="true"></canvas>
+              <span class="qr-brand-mark" aria-hidden="true"><img src="../assets/logo/derived/stan-mark-framed.svg" alt=""></span>
+            </button>
+            <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
+          </section>
+
+          <div class="share-divider" aria-hidden="true"></div>
+          <h1 class="categories-heading" id="settings-title" data-i18n="categoriesLabel">Catégorie de revendeurs</h1>
+          <fieldset id="merchant-categories" aria-describedby="status" disabled>
+            <legend class="sr-only" data-i18n="categoriesLabel">Catégorie de revendeurs</legend>
+            <label class="category">
+              <span class="category-label" data-i18n="officialReseller">Revendeurs officiels</span>
+              <input type="checkbox" value="official_reseller" checked>
+              <span class="category-check" aria-hidden="true"></span>
+            </label>
+            <label class="category">
+              <span class="category-label" data-i18n="directSeller">Vente directe</span>
+              <input type="checkbox" value="direct_seller" checked>
+              <span class="category-check" aria-hidden="true"></span>
+            </label>
+            <label class="category">
+              <span class="category-label" data-i18n="marketplace">Places de marché</span>
+              <input type="checkbox" value="marketplace" checked>
+              <span class="category-check" aria-hidden="true"></span>
+            </label>
+          </fieldset>
+
+          <p id="status" role="status" aria-live="polite"></p>
+          <footer class="legal-footer">
+            <p class="legal-notice"><span id="legal-notice"></span> <a id="legal-link" target="_blank" rel="noopener noreferrer"></a></p>
+          </footer>
+        </section>
+
+        <button class="share-qr-expanded" id="share-qr-expanded" type="button" data-qr-collapse hidden aria-hidden="true" aria-label="Close enlarged QR code">
+          <canvas id="share-qr-large" width="512" height="512" aria-hidden="true"></canvas>
+          <span class="qr-brand-mark" aria-hidden="true"><img src="../assets/logo/derived/stan-mark-framed.svg" alt=""></span>
+        </button>
+      </main>
+    </div>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
