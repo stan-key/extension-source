@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: цени в Steam и проверени ключове"
+  },
+  "extDescription": {
+    "message": "Преди покупка в Steam вижте дали проверен ключ не е по-евтин. Безплатно, без акаунт."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

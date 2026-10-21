@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: Steam 가격 비교 & 검증된 키"
+  },
+  "extDescription": {
+    "message": "Steam에서 사기 전에 검증된 키가 더 저렴한지 확인하세요. 무료, 계정 불필요, 게임 페이지와 찜 목록에 바로 표시됩니다."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}
