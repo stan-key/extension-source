@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan：Steam比价工具与验证密钥"
+  },
+  "extDescription": {
+    "message": "在 Steam 购买前，看看经过验证的密钥是否更便宜。免费、无需账号，直接显示在游戏页面和愿望单中。"
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

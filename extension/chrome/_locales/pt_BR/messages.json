@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: comparador Steam e chaves verificadas"
+  },
+  "extDescription": {
+    "message": "Antes de comprar na Steam, veja se uma chave verificada custa menos. Grátis, sem conta, na página do jogo e na lista de desejos."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

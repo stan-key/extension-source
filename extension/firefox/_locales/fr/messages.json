@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan : comparateur prix Steam, clés vérifiées"
+  },
+  "extDescription": {
+    "message": "Avant d’acheter sur Steam, voyez si une clé vérifiée coûte moins cher. Gratuit, sans compte, sur la fiche du jeu et la wishlist."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

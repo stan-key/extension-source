@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: srovnání cen Steam & klíče"
+  },
+  "extDescription": {
+    "message": "Než koupíte na Steamu, zjistěte, zda není ověřený klíč levnější. Zdarma, bez účtu."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}
