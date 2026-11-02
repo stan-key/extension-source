@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Stan</title>
+  <desc id="desc">Symbole Stan blanc avec un filet noir circulaire.</desc>
+  <circle cx="500" cy="500" r="490" fill="#0A0A0A"/>
+  <g transform="matrix(1.276538683 0 0 1.276538683 -35.519159375 -4.214006692)" fill="#FFFFFF">
+    <path d="M 591 117 A 321.161927 321.161927 0 0 0 198 622 L 197 628 L 166 672 Q 161 679 163 683 Q 165 685 170 680 L 343 435 Q 347 431 339 429 L 246 430 Q 238 430 239 421 L 378 249 C 398 216 421 177 465 153 C 502 133 548 143 582 172 C 617 202 631 242 621 282 C 616 304 603 322 581 343 L 503 418 Q 498 423 506 424 L 545 422 Q 553 422 548 431 L 214 679 L 173 713 Q 166 719 168 724 Q 171 727 182 718 L 249 668 A 321.161927 321.161927 0 0 0 591 117 Z"/>
+    <circle cx="517.34" cy="261.17" r="57.85"/>
+  </g>
+</svg>

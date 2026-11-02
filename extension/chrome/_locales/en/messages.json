@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Stan: Steam Price Checker & Verified Keys",
+    "description": "Name shown on the Chrome Web Store listing and in the extension manager."
+  },
+  "extDescription": {
+    "message": "Before you buy on Steam, see if a verified key costs less. Free, no account, right on the game page and in your wishlist.",
+    "description": "Short description for the Chrome Web Store listing."
+  },
+  "actionTitle": {
+    "message": "Stan",
+    "description": "Toolbar button tooltip."
+  }
+}

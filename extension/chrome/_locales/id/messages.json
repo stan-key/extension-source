@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: Cek Harga Steam & Key Terverifikasi"
+  },
+  "extDescription": {
+    "message": "Sebelum membeli di Steam, lihat apakah ada key terverifikasi yang lebih murah. Gratis, tanpa akun, di halaman game dan wishlist."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

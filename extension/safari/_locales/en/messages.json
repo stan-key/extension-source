@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: Steam Price Check & Verified Keys"
+  },
+  "extDescription": {
+    "message": "Before you buy on Steam, see if a verified key costs less. Free, no account, right on the game page."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

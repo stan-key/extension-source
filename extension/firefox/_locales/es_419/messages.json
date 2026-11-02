@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: precios de Steam y claves verificadas"
+  },
+  "extDescription": {
+    "message": "Antes de comprar en Steam, mira si una clave verificada cuesta menos. Gratis, sin cuenta, en la página del juego y en tus deseados."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

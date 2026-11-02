@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan：Steam比價工具與驗證序號"
+  },
+  "extDescription": {
+    "message": "在 Steam 購買前，看看經過驗證的序號是否更便宜。免費、免註冊帳號，直接顯示在遊戲頁面與願望清單中。"
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

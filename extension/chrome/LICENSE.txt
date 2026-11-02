@@ -1,0 +1,89 @@
+Stan Source Transparency License 1.0
+
+Copyright (c) 2026 Stan. All rights reserved.
+
+This license applies only to material in the Stan browser-extension package for which Stan owns or controls the applicable copyright ("Stan Material"). Third-party components are excluded from the Stan Material and remain subject to their own licenses, as identified in THIRD_PARTY_NOTICES.txt.
+
+By exercising any permission granted below, you accept this license.
+
+1. Purpose
+
+The Stan Material is made available so users, reviewers and security researchers can inspect what the browser extension does, verify the package they install, and use the official extension without granting broader rights to commercially reuse or redistribute Stan's software.
+
+This is a source-available transparency license. It is not an open-source license and is not intended to satisfy the Open Source Definition.
+
+2. Permission to inspect and audit
+
+Stan grants you a worldwide, non-exclusive, non-transferable, royalty-free permission to:
+
+(a) access, read, inspect and analyze the Stan Material;
+(b) make local copies reasonably necessary for inspection, auditing, integrity verification, compatibility testing or good-faith security research;
+(c) make local modifications solely for testing, debugging, interoperability evaluation or good-faith security research, provided those modified copies are not distributed or made available to third parties; and
+(d) use GitHub's standard repository features, including forking, solely to inspect, review, report issues or propose contributions, subject to GitHub's terms and this license.
+
+3. Permission to install and use official builds
+
+Stan grants you a worldwide, non-exclusive, non-transferable, royalty-free permission to install and run an unmodified official Stan browser-extension package on devices you control, for personal or internal business use.
+
+An "official Stan browser-extension package" means a package distributed by Stan through an official store, stan-key.com, or the stan-key/extension-source GitHub repository and corresponding to a published Stan release or snapshot.
+
+4. Restrictions
+
+Except for the permissions expressly granted above, and except to the extent applicable mandatory law provides otherwise, you may not without Stan's prior written permission:
+
+(a) publish, mirror, redistribute, sublicense, sell, rent, lease or otherwise provide the Stan Material or an official Stan browser-extension package to third parties;
+(b) distribute, publish or operate a modified or derivative version of the Stan Material;
+(c) use the Stan Material to create, operate or materially assist a competing or substantially similar browser extension, product or service;
+(d) remove, obscure or alter copyright, license, attribution, trademark, provenance, integrity or third-party notices;
+(e) represent any modified, copied or independently distributed software as Stan or as an official Stan release;
+(f) use Stan names, logos or trademarks except as reasonably necessary to identify Stan when discussing, reviewing or reporting on the software;
+(g) circumvent technical access controls, authentication, rate limits or security measures of Stan services, or use the Stan Material to obtain unauthorized access to systems or data; or
+(h) use the Stan Material as training data, fine-tuning data, evaluation corpus or a dataset for a machine-learning or generative-AI model, except for ordinary search/indexing needed to locate or retrieve this repository or where such restriction is prohibited by mandatory law.
+
+No permission is granted to scrape, extract, reproduce or exploit data made available through any Stan service except as expressly allowed by that service's applicable terms or by mandatory law.
+
+5. Good-faith security research
+
+The inspection and local-testing permissions above include good-faith security research. They do not authorize accessing another person's account or data, degrading service for other users, destructive testing against production systems, social engineering, malware distribution or extortion.
+
+Security-sensitive findings should be reported through the private channel described in SECURITY.md when that document is available with the package or repository.
+
+6. Third-party software and fonts
+
+Third-party code, fonts and other materials included with the extension are licensed by their respective copyright holders under their respective terms. Nothing in this license restricts rights granted to you directly by those third-party licenses.
+
+If this license conflicts with an applicable third-party license for a third-party component, the third-party license controls for that component.
+
+7. No rights in other Stan technology
+
+This license grants rights only in the Stan Material actually included with the browser-extension package or repository. No rights are granted in any other Stan software, services, APIs, data, trademarks or technology merely because the extension interoperates with them or refers to them.
+
+8. Ownership and reservation of rights
+
+The Stan Material is licensed, not sold. Stan and its licensors retain all right, title and interest in the Stan Material. All rights not expressly granted by this license are reserved.
+
+No patent, trademark, trade-secret or other intellectual-property license is granted by implication, estoppel or otherwise.
+
+9. Termination
+
+Your permissions under this license terminate automatically if you materially violate it. Permissions may be restored if Stan expressly agrees in writing or if the violation is fully cured within 30 days after you first become aware of it and Stan has not separately notified you that the license remains terminated.
+
+Termination does not affect third-party rights granted under applicable third-party licenses.
+
+10. Disclaimer
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE STAN MATERIAL AND OFFICIAL PACKAGES ARE PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, STAN WILL NOT BE LIABLE UNDER THIS LICENSE FOR INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR LOSS OF DATA, PROFITS, REVENUE OR BUSINESS OPPORTUNITY, ARISING FROM USE OF OR INABILITY TO USE THE STAN MATERIAL.
+
+Nothing in this section excludes or limits liability that cannot lawfully be excluded or limited.
+
+11. Mandatory law
+
+Nothing in this license is intended to restrict rights that cannot lawfully be restricted, including any mandatory rights relating to interoperability, security research, consumer protection or statutory exceptions to copyright.
+
+If a provision is unenforceable, it should be enforced to the maximum extent permitted while the remaining provisions continue in effect.
+
+12. Additional permission
+
+Stan may grant additional permissions in writing. A separate commercial, partnership or contribution agreement may supersede this license for the parties and material it expressly covers.

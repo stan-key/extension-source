@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Stan : comparateur prix Steam, clés vérifiées",
+    "description": "Nom affiché sur la fiche Chrome Web Store et dans le gestionnaire d'extensions."
+  },
+  "extDescription": {
+    "message": "Avant d’acheter sur Steam, voyez si une clé vérifiée coûte moins cher. Gratuit, sans compte, sur la fiche du jeu et la wishlist.",
+    "description": "Description courte de la fiche Chrome Web Store."
+  },
+  "actionTitle": {
+    "message": "Stan",
+    "description": "Infobulle du bouton de la barre d'outils."
+  }
+}
