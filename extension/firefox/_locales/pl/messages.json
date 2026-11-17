@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: ceny Steam i zweryfikowane klucze"
+  },
+  "extDescription": {
+    "message": "Zanim kupisz na Steam, sprawdź, czy zweryfikowany klucz jest tańszy. Za darmo, bez konta, na stronie gry i na liście życzeń."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

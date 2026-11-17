@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: Giá Steam & key đã xác minh"
+  },
+  "extDescription": {
+    "message": "Trước khi mua trên Steam, xem key đã xác minh có rẻ hơn không. Miễn phí, không cần tài khoản."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}

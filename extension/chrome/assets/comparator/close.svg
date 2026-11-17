@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Croix" clip-path="url(#clip0_0_69)">
+<g id="Vector">
+<path d="M1 1L13 13ZM13 1L1 13Z" fill="black"/>
+<path d="M1 1L13 13M13 1L1 13" stroke="#6F7D8A" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_69">
+<rect width="14" height="14" fill="white"/>
+</clipPath>
+</defs>
+</svg>

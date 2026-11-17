@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Stan: Steam-hintavertailu & avaimet"
+  },
+  "extDescription": {
+    "message": "Ennen kuin ostat Steamissa, katso, onko varmennettu avain halvempi. Ilmainen, ei tiliä."
+  },
+  "actionTitle": {
+    "message": "Stan"
+  }
+}
